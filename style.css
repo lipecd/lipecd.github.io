@@ -1,0 +1,148 @@
+@font-face {
+    font-family: MisterSirloin;
+    src: url(./fontes/MisterSirloinBTN-Medium.ttf);
+}
+@font-face {
+    font-family: Arvo;
+    src: url(./fontes/Arvo-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f68c47;
+    margin: 0;
+    padding: 0;
+}
+
+ul{    
+    background-color: #f04e23; 
+    margin: 0;  
+    }
+
+a{    
+    color: #e6e7e8;
+    font-family: Arvo, Arial;
+    font-weight: bold;
+    /* text-decoration: none;        */
+    /* list-style: initial; */
+    display: inline-block;
+    
+}
+
+
+li{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 60px;
+    border-radius: 5px;
+}
+
+li:hover{
+    background-color: #e6e7e8;
+    color: #f68c47;
+    text-shadow: 2px 2px rgb(58, 58, 58);
+    list-style-image: url("./Images/brownieICO.png");    
+}
+
+
+#logo{
+    display: block;
+    padding: 10px;
+    margin: auto;
+    border: 0;
+    width: 30%;
+    
+    }
+
+@keyframes container{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.container{
+    display: flex;
+    animation-name: container;
+    animation-duration: 1.5s;;
+}
+
+.direita{
+    background-color: #f68c47;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;   
+    flex: 60%;
+    padding: 20px;
+    width: 60vw;
+    height: 100vh;
+}
+
+.esquerda{
+    flex: 40%;
+    object-fit: contain;
+            
+}
+
+#homeImg{
+    width: 40vw;
+    height: 100vh;
+    object-fit: contain;
+    
+}
+
+h1{
+    font-family: MisterSirloin, Arial;
+    color: #e6e7e8;
+    text-shadow: 4px 4px #f04e23;
+    text-align: center;
+}
+
+p{
+    font-family: Arvo, Arial;
+    text-align: center;
+    background-color: #e6e7e8;    
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formcontainer{
+    background-color: #e6e7e8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: #e6e7e8;
+    background-color: #f04e23;
+    font-family: Arvo, Arial;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: #f68c47;
+    color: #e6e7e8;
+    text-shadow: 2px 2px rgb(58, 58, 58);
+}
+
+.whats{
+    width: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+
