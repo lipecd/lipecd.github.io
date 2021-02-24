@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Fireplace</title>
+    
+</head>
+<body>
+    
+
+    <video autoplay muted loop id="fireplace">
+        <source src="./media/Burning Charcoal Fire.mp4" type="video/mp4">
+    </video>
+
+    
+    <audio loop id="fireAudio">
+        <source src="./media/fireplace audio.mp3" type="audio/mp3">
+    </audio>
+    <audio loop id="rainAudio">
+        <source src="./media/rain audio.wav" type="audio/wav">
+    </audio>
+    <audio loop id="jazzAudio">
+        <source src="./media/bensound-love.mp3" type="audio/mp3">
+    </audio>
+
+
+    <div class="content">
+        <!-- <button id="pausebtn" class="buttom" onclick="playPause()"><img src="./media/pause.png" alt="pause"></button> -->
+        <button id="firebtn" class="buttom" onclick="playFire()"><img src="./media/fire icon.png" alt="botão de fogo"></button>
+        <button id="rainbtn" class="buttom" onclick="playRain()"><img src="./media/icon chuva.png" alt="botão de chuva"></button>
+        <button id="jazzbtn" class="buttom" onclick="playJazz()"><img src="./media/icon jazz.png" alt="botão de jazz"></button>
+
+        <footer>
+            <p>Video by <a href="https://pexels.com">Pexels</a></p>
+            <p>Music by <a href="https://bensound.com">Bensound</a></p>
+            <p>Sounds by <a href="https://zapsplat.com">ZapSplat</a> / <a href="https://mixkit.co">Mixkit</a></p>
+            <br>
+            <p id="author">Created by <a href="https://linkedin.com/in/felipecardosoduarte/">Felipe Duarte</a></p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
